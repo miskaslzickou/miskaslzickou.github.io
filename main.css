@@ -1,12 +1,13 @@
 .text_of_profile1{
   color: #29ed17;
-  display: inline-table;
+display:inline-block
 
 }
-  
+
 .text_of_profile2{ 
   color: #29ed17;
- 
+ padding-left: 10px;
+
 }
 body{
   background-color: black;
