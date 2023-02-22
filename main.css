@@ -1,0 +1,29 @@
+.text_of_profile1{
+  color: #29ed17;
+  display: inline-table;
+
+}
+  
+.text_of_profile2{ 
+  color: #29ed17;
+ 
+}
+body{
+  background-color: black;
+}
+
+h1{
+  font-family: sans-serif;
+  text-align: center;
+  color: #29ed17;
+  font-size: 20px;
+}
+
+.gray-rectangle{
+  background-color: rgb(69, 67, 67);
+  width: 400px;
+  height: 600px;
+}
+
+
+  
