@@ -5,10 +5,17 @@ display:inline-block
 }
 
 .text_of_profile2{ 
-  color: #29ed17;
- padding-left: 10px;
+color: #29ed17;
+padding-left: 40px;
+display: inline-block;
+width: 50%;
+text-align: right;
+border: 1px;
+
+ 
 
 }
+
 body{
   background-color: black;
 }
@@ -22,9 +29,26 @@ h1{
 
 .gray-rectangle{
   background-color: rgb(69, 67, 67);
-  width: 400px;
+  width:350px;
   height: 600px;
+
 }
+.profile_info{
+display: block;
 
+}
+.container{
+  text-align: center;
+}
+img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%; 
+  display: inline-block;
+}
+.dark-rectangle{
+  background-color: #131313;
+  width: 350px;
 
+}
   
