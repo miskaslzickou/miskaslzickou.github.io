@@ -17,7 +17,7 @@ border: 1px;
 }
 
 body{
-  background-color: black;
+  background-color: rgb(30,30,40);
 }
 
 h1{
@@ -28,9 +28,12 @@ h1{
 }
 
 .gray-rectangle{
-  background-color: rgb(69, 67, 67);
+  background-color:#23232e;
   width:350px;
   height: 600px;
+  border-radius: 10px; 
+  border: 1px solid rgb(41, 237, 23);
+  
 
 }
 .profile_info{
@@ -47,8 +50,62 @@ img{
   display: inline-block;
 }
 .dark-rectangle{
-  background-color: #131313;
+  background-color: #20202a;
   width: 350px;
 
 }
+.graph1{
+  width: 80px;
+  height: 80px;
+  /*background-color:#29ed17; */
+  position: relative;
   
+}
+.outer{
+  height: 40px;
+  width:40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}svg{
+    width: 100% ;
+    height:100% ;
+  }
+circle {
+  stroke: #29ed17;
+  stroke-width: 2.5px;
+  fill: transparent;
+  stroke-dasharray:80.06;
+  stroke-dashoffset:13.45;
+
+  padding-left: 5px;
+}
+
+  
+
+text{
+  fill: #29ed17;
+  
+} 
+.graph_text{
+  color: #29ed17;
+}
+.circle2{
+  stroke: #29ed17;
+  stroke-width: 2.5px;
+  fill: transparent;
+  stroke-dasharray:106.81; 
+  stroke-dashoffset:0;
+}
+.graphs_of_experience{
+  display: inline-block
+}
+.graph1{
+  display: inline-block
+
+
+}
+.graph2
+{display: inline-block
+}
