@@ -142,7 +142,7 @@ svg rect:last-child {
 #services-text{
 text-align: center;
 color: #29ed17;
-
+font-family: sans-serif;
 }
 .text-dev{
   color: #29ed17;
