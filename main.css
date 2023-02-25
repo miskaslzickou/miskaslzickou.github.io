@@ -1,0 +1,170 @@
+.text_of_profile1{
+  color: #29ed17;
+display:inline-block
+
+}
+
+.text_of_profile2{ 
+color: #29ed17;
+padding-left: 40px;
+display: inline-block;
+width: 50%;
+text-align: right;
+border: 1px;
+
+ 
+
+}
+
+body{
+  background-color: rgb(30,30,40);
+}
+
+h1{
+  font-family: sans-serif;
+  text-align: center;
+  color: #29ed17;
+  font-size: 20px;
+}
+
+.gray-rectangle{
+  background-color:#23232e;
+  width:350px;
+  height: 600px;
+  border-radius: 10px; 
+  border: 1px solid rgb(41, 237, 23);
+  
+
+}
+.profile_info{
+display: block;
+
+}
+.container{
+  text-align: center;
+}
+img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%; 
+  display: inline-block;
+}
+.dark-rectangle{
+  background-color: #20202a;
+  width: 350px;
+
+}
+.graph1{
+  width: 80px;
+  height: 80px;
+  /*background-color:#29ed17; */
+  position: relative;
+  
+}
+.outer{
+  height: 40px;
+  width:40px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}svg{
+    width: 100% ;
+    height:100% ;
+  }
+circle {
+  stroke: #29ed17;
+  stroke-width: 2.5px;
+  fill: transparent;
+  stroke-dasharray:80.06;
+  stroke-dashoffset:13.45;
+
+  padding-left: 5px;
+}
+
+  
+
+text{
+  fill: #29ed17;
+  font-size: 13px;
+  
+} 
+.graph_text{
+  color: #29ed17;
+}
+.circle2{
+  stroke: #29ed17;
+  stroke-width: 2.5px;
+  fill: transparent;
+  stroke-dasharray:106.81; 
+  stroke-dashoffset:0;
+}
+.graphs_of_experience{
+  display: inline-block;
+  padding-left: 15px;
+}
+.graph1{
+  display: inline-block
+
+
+}
+.graph2
+{display: inline-block
+}
+hr{
+  height: 1px;
+  fill: #29ed17 !important;
+  border-color: #29ed17 !important;
+ 
+}
+svg rect:first-child {
+  fill: none; /* change the background color */
+  stroke: #29ed17; /* change the stroke color */
+ 
+}
+svg rect:last-child {
+  fill:#29ed17; /* change the color of the progress bar */
+ 
+}
+.graph-container {
+ 
+  width: 150%; /* set a width for the container element */
+  float: right !important;
+  height: 100%;
+
+}
+
+#progress-gradient{
+  display: inline-block; 
+  vertical-align: top; /* align the container element to the top */
+  color: #29ed17;
+}
+#services-text{
+text-align: center;
+color: #29ed17;
+font-family: sans-serif;
+display: inline-block;
+
+}
+.text-dev{
+  color: #29ed17;
+  text-align: center;
+  font-size: 15px;
+}
+.fiverbutton{
+  color: #29ed17;
+  text-decoration: none;
+  font-family: sans-serif;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 24px;
+}
+.fiverbutton:hover{
+  color:aliceblue;
+}
+.services_info{
+  text-align: center;
+  display: inline-block;
+ 
+}
+
