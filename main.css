@@ -139,7 +139,7 @@ svg rect:last-child {
   vertical-align: top; /* align the container element to the top */
   color: #29ed17;
 }
-#services-text{
+.services-text{
 text-align: center;
 color: #29ed17;
 font-family: sans-serif;
