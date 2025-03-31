@@ -1,7 +1,7 @@
 body{
-    margin: 0;
-    padding: 0;
-    /* background-color: #idk ;  finish background color*/ 
+    margin: 0px;
+    padding: 0px;
+    background-color: #3a3a3a ; 
 }
 header{
     position: relative;
@@ -15,7 +15,7 @@ header{
    padding: 20px;
    
     
-   background-color: #1a1a1a;
+   background-color: #121212;
    font-family: monospace;
    
   
@@ -32,7 +32,7 @@ header ul{
 header h1{
     position: absolute;
     font-weight: bold;
-    left: 10%;
+    left: 20%;
 
     
 }
@@ -51,4 +51,15 @@ header ul li a{
 header ul li a:hover{
     color: #00a7e1;
     transition: 0.3s;
+}
+
+footer{
+    background-color: #1a1a1a ;
+    width: 100%;
+    color: white;
+    font-family: monospace;
+    display: flex;
+}
+footer p{
+    padding-left:25% ;
 }
