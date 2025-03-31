@@ -1,8 +1,10 @@
 body{
     margin: 0;
     padding: 0;
+    /* background-color: #idk ;  finish background color*/ 
 }
 header{
+    position: relative;
    display: flex;
    justify-content: center;
 
@@ -10,15 +12,17 @@ header{
    text-align: center;
    color: white;
    margin: 0;
-   padding: 10px;
+   padding: 20px;
    
     
-   background-color: #000;
+   background-color: #1a1a1a;
    font-family: monospace;
    
-    /* change flex to only ul not header */
+  
 }
 header ul{
+
+    
     display: flex;
     list-style: none;
     padding: 0;
@@ -26,11 +30,16 @@ header ul{
     
 }
 header h1{
+    position: absolute;
     font-weight: bold;
+    left: 10%;
+
+    
 }
 
 header ul li{
-    margin: 0 10px;
+    margin: 0 20px;
+    
 }
 header ul li a{
     text-decoration: none;
@@ -38,4 +47,8 @@ header ul li a{
     font-size: 30px;
 
    
+}
+header ul li a:hover{
+    color: #00a7e1;
+    transition: 0.3s;
 }
