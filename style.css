@@ -2,6 +2,10 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: #3a3a3a ; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
 }
 header{
     position: relative;
@@ -38,7 +42,7 @@ header h1{
 }
 
 header ul li{
-    margin: 0 20px;
+    margin-right:  40px;
     
 }
 header ul li a{
@@ -62,4 +66,7 @@ footer{
 }
 footer p{
     padding-left:25% ;
+}
+.main{
+    flex-grow: 1;
 }
