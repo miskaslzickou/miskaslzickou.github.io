@@ -37,6 +37,7 @@ header h1{
     position: absolute;
     font-weight: bold;
     left: 20%;
+    text-shadow: ;
 
     
 }
@@ -48,12 +49,12 @@ header ul li{
 header ul li a{
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 
    
 }
 header ul li a:hover{
-    color: #00a7e1;
+    color: #c4a000;
     transition: 0.3s;
 }
 
@@ -69,4 +70,11 @@ footer p{
 }
 .main{
     flex-grow: 1;
+}
+.isActive{
+    color: #00ff7f;
+}
+section{
+    color: white;
+    font-family: monospace;
 }
