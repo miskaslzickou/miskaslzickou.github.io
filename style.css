@@ -54,7 +54,7 @@ header ul li a{
    
 }
 header ul li a:hover{
-    color: #c4a000;
+    color: #00ff7f;
     transition: 0.3s;
 }
 
@@ -78,3 +78,5 @@ section{
     color: white;
     font-family: monospace;
 }
+
+
