@@ -67,12 +67,14 @@ footer{
 }
 footer p{
     padding-left:25% ;
+    font-size: 20px;
 }
 .main{
     flex-grow: 1;
 }
 .isActive{
     color: #00ff7f;
+    
 }
 section{
     color: white;
