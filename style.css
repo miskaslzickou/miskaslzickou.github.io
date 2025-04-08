@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #3a3a3a ; 
+    background-color: #2e2e2e ; 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -14,7 +14,7 @@ header{
 
    align-items: center;
    text-align: center;
-   color: white;
+   color: #e0e0e0;
    margin: 0;
    padding: 20px;
    
@@ -48,14 +48,19 @@ header ul li{
 }
 header ul li a{
     text-decoration: none;
-    color: white;
+    color: #e0e0e0;
     font-size: 20px;
-
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
    
 }
 header ul li a:hover{
-    color: #00ff7f;
+    color: #32cd32;
     transition: 0.3s;
+    text-shadow: 0 0 15px #32cd32,  2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid  #32cd32;
+    padding-bottom: 4px;
+    
+    font-weight: 700;
 }
 
 footer{
@@ -67,13 +72,18 @@ footer{
 }
 footer p{
     padding-left:25% ;
-    font-size: 20px;
+    font-size: 15px;
 }
 .main{
     flex-grow: 1;
 }
 .isActive{
-    color: #00ff7f;
+    color: #32cd32;
+    transition: 0.3s;
+    text-shadow: 0 0 15px #32cd32 ,  2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid  #32cd32;
+    padding-bottom: 4px;
+    font-weight: 700;
     
 }
 section{

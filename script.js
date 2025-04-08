@@ -26,3 +26,15 @@ function glitchText() {
 window.onload = function() {
     glitchText();
 };
+const text = "Welcome to my portfolio...";
+let i = 0;
+const speed = 50;
+
+function type() {
+  if (i < text.length) {
+    document.getElementById("typed").innerHTML += text.charAt(i);
+    i++;
+    setTimeout(type, speed);
+  }
+}
+window.onload = type;
