@@ -64,6 +64,14 @@ header ul li a:hover{
     
     font-weight: 700;
 }
+ul:hover a.isActive:not(:hover) {
+    
+    color: #e0e0e0;
+    text-shadow: none;
+    border: none;
+    padding-bottom: 0;
+    font-weight: normal;
+  }
 
 footer{
     background-color: #1a1a1a ;
@@ -79,7 +87,7 @@ footer p{
 .main{
     flex-grow: 1;
 }
-.isActive{
+header ul li  .isActive{
     color: #32cd32;
     transition: 0.3s;
     text-shadow: 0 0 15px #32cd32 ,  2px 2px 4px rgba(0, 0, 0, 0.5);
