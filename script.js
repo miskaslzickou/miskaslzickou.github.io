@@ -23,18 +23,9 @@ function glitchText() {
 }
 
 
-const hand = document.getElementById("hand");
-let angle = 0;
 
-function shake() {
-  const offset = Math.sin(angle) * 20; // 20px side-to-side
-  hand.style.transform = `translateX(${offset}px)`;
-  angle += 0.1;
-  requestAnimationFrame(shake);
-}
 
-shake();
-shakeHand();
+
 window.onload = function() {
     glitchText();
 
