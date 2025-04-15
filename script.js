@@ -23,18 +23,19 @@ function glitchText() {
 }
 
 
+const hand = document.getElementById("hand");
+let angle = 0;
+
+function shake() {
+  const offset = Math.sin(angle) * 20; // 20px side-to-side
+  hand.style.transform = `translateX(${offset}px)`;
+  angle += 0.1;
+  requestAnimationFrame(shake);
+}
+
+shake();
+shakeHand();
 window.onload = function() {
     glitchText();
-};
-const text = "Welcome to my portfolio...";
-let i = 0;
-const speed = 50;
 
-function type() {
-  if (i < text.length) {
-    document.getElementById("typed").innerHTML += text.charAt(i);
-    i++;
-    setTimeout(type, speed);
-  }
-}
-window.onload = type;
+};
