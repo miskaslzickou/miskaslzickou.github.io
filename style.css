@@ -96,7 +96,7 @@ header ul li  .isActive{
     font-weight: 700;
     
 }
-section{
+.main {
     color: white;
     font-family: monospace;
     margin-left: 20%;
@@ -105,7 +105,7 @@ section{
 section p{
     font-size: 20px;
 }
-section h1 {
+section #welcome {
     font-size: 40px;
 }
 section i {
@@ -125,4 +125,37 @@ section i {
     60% { transform: rotate(10.0deg) }
     70% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
    100% { transform: rotate( 0.0deg) }
+  }
+.main-skills{
+    flex-grow: 1;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+}
+.main-skills h1{
+    padding: 5%;
+    font-size: 40px;
+
+}
+.skills-container{
+display: grid;
+grid-template-columns: repeat(auto-fit),minmax(220px,1fr);
+gap: 20px;
+max-width: 1000px;
+margin: 0 auto;
+}
+.skills-box{
+    
+   
+    padding: 20px;
+    
+    transition: transform 0.3s;
+}
+.skill-box:hover {
+    background-color: #1e1e1e;
+    border: 1px solid #32cd32;
+    padding: 20px;
+    border-radius: 12px;
+    transition: transform 0.3s;
+    transform: scale(1.05);
   }
