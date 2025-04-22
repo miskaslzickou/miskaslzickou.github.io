@@ -108,7 +108,7 @@ section p{
 section #welcome {
     font-size: 40px;
 }
-section i {
+ #hand {
     color: #32cd32;
     text-shadow: 0 0 15px #32cd32 ,  2px 2px 4px rgba(0, 0, 0, 0.5);
     animation-name: wave-animation;
@@ -139,7 +139,7 @@ section i {
 }
 .skills-container{
 display: grid;
-grid-template-columns: repeat(auto-fit),minmax(220px,1fr);
+grid-template-columns: repeat(auto-fit ,minmax(220px,1fr));
 gap: 20px;
 max-width: 1000px;
 margin: 0 auto;
@@ -158,4 +158,7 @@ margin: 0 auto;
     border-radius: 12px;
     transition: transform 0.3s;
     transform: scale(1.05);
+  }
+  .skill-box h3{
+   
   }
