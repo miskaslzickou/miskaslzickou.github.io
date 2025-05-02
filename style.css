@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: #2e2e2e ; 
+    background-color:#2e2e2e ; 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -196,4 +196,11 @@ section #welcome {
 }
 .skill-box p {
     line-height: 1.6;
+}
+header  a i {
+    font-size: 40px;
+    position: absolute;
+    right: 3%;
+    color: #e0e0e0;
+    top: 22%;
 }
