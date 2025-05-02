@@ -214,3 +214,7 @@ header  a i {
     color: #e0e0e0;
     top: 22%;
 }
+i:hover {
+    transform: rotate(20deg);
+    transition: transform 0.3s ease;
+}
