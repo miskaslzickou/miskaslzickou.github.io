@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color:#2e2e2e ; 
+    background:linear-gradient(#2e2e2e,#333339) ; 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -16,10 +16,10 @@ header{
    text-align: center;
    color: #e0e0e0;
    margin: 0;
-   padding: 20px;
+   padding: 30px;
    
     
-   background-color: #121212;
+   background: linear-gradient(#1b1b1e,#121212) ;
    font-family: monospace;
    
   
@@ -87,6 +87,10 @@ footer p{
 .main{
     flex-grow: 1;
 }
+.intro-text{
+    padding-top:2% ;
+    width: 70%;
+}
 header ul li  .isActive{
     color: #32cd32;
     transition: 0.3s;
@@ -100,7 +104,7 @@ header ul li  .isActive{
     color: white;
     font-family: monospace;
     margin-left: 20%;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 section p{
     font-size: 20px;
@@ -144,6 +148,10 @@ section #welcome {
     color: #32cd32;
     font-size: 2.6rem;
     margin-bottom: 10px;
+    text-shadow: 0 0 15px #32cd32 ,  2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.main-skills p{
+    text-shadow: 0 0 15px #32cd32 ,  2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .skills-container {
@@ -183,6 +191,7 @@ section #welcome {
 
 .skill-box:hover h3 {
     color: #32cd32;
+    text-shadow: 0 0 15px #32cd32 ,  2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .skill-box:hover p {
@@ -196,6 +205,7 @@ section #welcome {
 }
 .skill-box p {
     line-height: 1.6;
+    text-shadow: none;
 }
 header  a i {
     font-size: 40px;
