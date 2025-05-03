@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="/images/icon1.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://kit.fontawesome.com/9a457bca29.js" crossorigin="anonymous"></script>
@@ -15,22 +15,31 @@
     <script type="module" src="script.js"></script>
 
     <header> 
-         <img src="images/logo.png" alt="logo">
+        <img src="images/logo.png" alt="logo">
             <ul> 
-                <li><a href="index.html" class="isActive">ÚVOD</a></li>
+                <li><a href="index.html">ÚVOD</a></li>
                 <li><a href="programming.html">PROGRAMOVÁNÍ</a></li>
                 <li><a href="portfolio.html">PORTFÓLIO</a></li>
-                <li><a href="contact.html">KONTAKT</a></li>
+                <li><a href="contact.html" class="isActive">KONTAKT</a></li>
 
             </ul>
            
           <a href="https://github.com/miskaslzickou" target="_blank"><i class="fa-brands fa-github"></i></a> 
     </header>
    
-   <section class="main" id="welcome">
-   <p> Hello, <i class="fa-solid fa-hand" id="hand"></i> I'm Michal Mikuš</p>
-   <h1 id="welcome">Programátor & Developer</h1>
-   <p id="intro-text"></p>
+   <section class="contact">
+    <h1>Kontaktujte mě</h1>
+    <p>Máte dotaz, návrh nebo zájem o spolupráci? Neváhejte mě kontaktovat pomocí formuláře níže. Odpovím co nejdříve.</p>
+    <form action="https://formsubmit.co/ilikemoonm@gmail.com" method="POST">
+        <label for="name">Vaše jméno:</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <textarea name="message" placeholder="Zpráva" required></textarea>
+        <input type="hidden" name="_next" value="contact.html">
+        <button type="submit">Odeslat zprávu</button>
+      </form>
 
    
    </section>

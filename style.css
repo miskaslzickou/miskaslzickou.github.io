@@ -1,11 +1,11 @@
 body{
     margin: 0px;
     padding: 0px;
-    background:linear-gradient(#2e2e2e,#333339) ; 
+    background:linear-gradient(#2e2e2e,#33333b) ; 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-
+    font-family: monospace;
 }
 header{
     position: relative;
@@ -19,8 +19,8 @@ header{
    padding: 30px;
    
     
-   background: linear-gradient(#1b1b1e,#121212) ;
-   font-family: monospace;
+   background: linear-gradient(#1b1b26,#121212) ;
+  
    
   
 }
@@ -71,19 +71,59 @@ ul:hover a.isActive:not(:hover) {
     border: none;
     padding-bottom: 0;
     font-weight: normal;
-  }
- 
-footer{
-    background-color: #1a1a1a ;
+    
+}
+ footer {
+    background-color: #1a1a1a;
     width: 100%;
     color: white;
-    font-family: monospace;
+    margin: 0;
+    padding: 30px 0;
     display: flex;
- 
+    flex-direction: column;
 }
-footer p{
-    padding-left:25% ;
-    font-size: 15px;
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    opacity: 0.7;
+}
+
+.contact-info {
+    margin-left: 40px;
+    padding-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: linear-gradient(to right,#1a1a1a,#1d1d1d,#1a1a1a); /*3 stop gradient dodává cool efekt */
+    border-radius: 8px;
+    width: 25%;
+}
+
+.contact-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #32cd32;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #28a428;
+}
+
+.contact-info i {
+    font-size: 22px;
 }
 .main{
     flex-grow: 1;
@@ -91,6 +131,7 @@ footer p{
 #intro-text{
     padding-top:2% ;
     width: 70%;
+    
 }
 header ul li  .isActive{
     color: #32cd32;
@@ -103,7 +144,7 @@ header ul li  .isActive{
 }
 .main {
     color: white;
-    font-family: monospace;
+   
     margin-left: 20%;
     margin-top: 15%;
 }
@@ -134,7 +175,7 @@ section #welcome {
   .main-skills {
     flex-grow: 1;
     color: white;
-    font-family: monospace;
+   
     text-align: center;
     padding: 40px 20px;
 }
@@ -222,10 +263,87 @@ i:hover {
 .main-portfolio {
     flex-grow: 1;
     color: white;
-    font-family: monospace;
+   
     text-align: center;
     padding: 40px 20px
 }
 .main-portfolio h1{
-    font-size: 45px;
+    font-size: 55px;
+
 }
+.contact{
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+    
+    padding-top: 5%;
+    color: white;
+}
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    background:linear-gradient(#1b1b26,#121212);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(50, 205, 50, 0.3);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  label {
+    display: block;
+    font-size: 20px;
+    color: #32cd32;
+    margin-top: 20px;
+  }
+  
+  input,
+  textarea {
+    width: 95%;
+    padding: 14px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+    font-size: 16px;
+    border: 1px solid #444;
+    background-color: #181818;
+    color: white;
+    border-radius: 6px;
+    transition: border 0.3s, box-shadow 0.3s;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border: 1px solid #32cd32;
+    box-shadow: 0 0 5px rgba(50, 205, 50, 0.6);
+    outline: none;
+  }
+  
+  button {
+    margin-top: 25px;
+    padding: 14px 20px;
+    font-size: 20px;
+    background-color: #32cd32;
+    color: #101010;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #28a428;
+    transform: scale(1.05);
+  }
+  .contact h1{
+    font-size: 50px;
+    color: #32cd32;
+    text-shadow: 0 0 15px #32cd32 ,  2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .contact p{
+    font-size: 20px;
+    align-items: center;
+    
+  }
+  header img{
+    width: 15%;
+    height: 100%;
+  }
