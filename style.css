@@ -88,7 +88,7 @@ footer p{
 .main{
     flex-grow: 1;
 }
-.intro-text{
+#intro-text{
     padding-top:2% ;
     width: 70%;
 }
@@ -225,4 +225,7 @@ i:hover {
     font-family: monospace;
     text-align: center;
     padding: 40px 20px
+}
+.main-portfolio h1{
+    font-size: 45px;
 }
