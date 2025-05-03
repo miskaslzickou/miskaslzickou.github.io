@@ -79,6 +79,7 @@ footer{
     color: white;
     font-family: monospace;
     display: flex;
+ 
 }
 footer p{
     padding-left:25% ;
@@ -217,4 +218,11 @@ header  a i {
 i:hover {
     transform: rotate(20deg);
     transition: transform 0.3s ease;
+}
+.main-portfolio {
+    flex-grow: 1;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding: 40px 20px
 }
