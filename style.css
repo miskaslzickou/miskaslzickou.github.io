@@ -283,10 +283,22 @@ i:hover {
     width: 50%;
     max-width: 800px;
     text-align: center;
-    padding: 20px;
-    background-color: #1a1a1a;
+    padding: 40px;
+    
+    border: 2px solid #303030;
     border-radius: 12px;
     box-shadow: #1b1b26 0px 0px 20px;
+    text-align: left;
+}
+.project-box h2{
+    font-size: 30px;
+   
+}
+.project-box:hover{
+    background-color: #2e2e2e
+ 
+  
+ 
 }
 
 .contact{
@@ -362,3 +374,184 @@ form {
     align-items: center;
     
   }
+  .contact-info a{
+    
+    display: inline-block;
+    width: fit-content;
+  }
+.aboutme{
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+  
+}
+.aboutme p{
+    max-width: 5000px;
+    display: inline-block;
+    width: 50%;
+}
+.aboutme h1{
+    font-size: 50px;
+      
+}
+
+/* Media Query pro mobilní zařízení : nějaká základní responzivita není to ideální ale funguje to testováno přes chrome devtools*/
+@media screen and (max-width: 768px) {
+    header {
+        padding: 2vh;
+    }
+
+    header ul {
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    header ul li {
+        margin-right: 0;
+    }
+
+    header img {
+        position: static;
+        height: 4vh;
+        margin-bottom: 2vh;
+    }
+    footer{
+        margin: 0;
+       
+    }
+    .main {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+        padding: 0 5%;
+    }
+
+    .project-box {
+        width: 90%;
+        padding: 4vh 2vh;
+    }
+
+    .contact-info {
+        width: 90%;
+        margin: 0 auto;
+        padding: 2vh;
+    }
+
+    form {
+        width: 90%;
+        max-width: none;
+        padding: 2vh;
+    }
+
+    .aboutme p {
+        width: 90%;
+        max-width: none;
+    }
+
+    .main-portfolio {
+        padding: 2vh;
+    }
+
+    .main-skills {
+        padding: 2vh;
+    }
+
+    /* Upravené velikosti fontů pro mobil */
+    .main-portfolio h1,
+    .contact h1,
+    .aboutme h1 {
+        font-size: 3vh;
+    }
+
+    section #welcome {
+        font-size: 2.5vh;
+    }
+
+    section p,
+    .contact p {
+        font-size: 1.8vh;
+    }
+
+    .skill-box h3 {
+        font-size: 2vh;
+    }
+
+    .project-box h2 {
+        font-size: 2.2vh;
+    }
+
+    /* Úprava navigace */
+    header a i {
+        font-size: 3vh;
+        right: 5%;
+        top: 2vh;
+    }
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .main {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 5%;
+        width: 90%;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+        padding: 0 5%;
+        max-width: 90%;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .project-box {
+        width: 90%;
+        padding: 4vh 2vh;
+        margin: 0 auto;
+        max-width: none;
+        box-sizing: border-box;
+    }
+
+    .contact-info {
+        width: 90%;
+        margin: 0 auto;
+        padding: 2vh;
+        box-sizing: border-box;
+    }
+
+    form {
+        width: 90%;
+        max-width: none;
+        padding: 2vh;
+        margin: 2vh auto;
+        box-sizing: border-box;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .aboutme p {
+        width: 90%;
+        max-width: none;
+        padding: 0 2vh;
+        box-sizing: border-box;
+    }
+
+    /* Upravení padding a margin pro kontejnery */
+    .main-portfolio,
+    .main-skills {
+        padding: 2vh;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
