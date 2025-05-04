@@ -19,7 +19,7 @@ header{
    padding: 30px;
    
     
-   background: linear-gradient(#1b1b26,#121212) ;
+   background: linear-gradient(#0a0a14,#121212) ;
   
    
   
@@ -271,6 +271,24 @@ i:hover {
     font-size: 55px;
 
 }
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.project-box{
+    width: 50%;
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: #1b1b26 0px 0px 20px;
+}
+
 .contact{
     flex-grow: 1;
     text-align: center;
@@ -291,6 +309,7 @@ form {
   
   label {
     display: block;
+    text-align: left;
     font-size: 20px;
     color: #32cd32;
     margin-top: 20px;
@@ -342,8 +361,4 @@ form {
     font-size: 20px;
     align-items: center;
     
-  }
-  header img{
-    width: 15%;
-    height: 100%;
   }
