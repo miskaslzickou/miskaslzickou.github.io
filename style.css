@@ -502,6 +502,7 @@ form {
         padding: 0 5%;
         width: 90%;
     }
+    
 
     .skills-container {
         grid-template-columns: 1fr;
@@ -510,7 +511,9 @@ form {
         width: 90%;
         margin: 0 auto;
     }
-
+    p#intro-text{
+    display:inline;
+    }
     .project-box {
         width: 90%;
         padding: 4vh 2vh;
