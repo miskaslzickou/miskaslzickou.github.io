@@ -558,3 +558,13 @@ form {
         box-sizing: border-box;
     }
 }
+a{
+    color: #32cd32;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    
+    text-shadow: 0 0 15px #32cd32 ,  2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
